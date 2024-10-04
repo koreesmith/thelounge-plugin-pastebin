@@ -19,10 +19,13 @@
     "description": "Upload code snippets to Pastebin and share the link.",
     "version": "1.0.0",
     "author": "Your Name",
+    "homepage": "https://yourhomepage.com",
     "repository": {
       "type": "git",
+      "url": "https://github.com/yourusername/thelounge-pastebin-plugin.git"
     },
     "bugs": {
+      "url": "https://github.com/yourusername/thelounge-pastebin-plugin/issues"
     },
     "keywords": [
       "thelounge",
