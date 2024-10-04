@@ -34,8 +34,8 @@ const pastebinCommand = {
                 api_dev_key: API_KEY,
                 api_option: 'paste',
                 api_paste_code: codeSnippet,
-                api_paste_private: '1', // 0 = public, 1 = unlisted, 2 = private
-                api_paste_expire_date: '10M', // Expiration: 10 minutes
+                api_paste_private: '0', // 0 = public, 1 = unlisted, 2 = private
+                api_paste_expire_date: '1440M', // Expiration: 10 minutes
             });
 
             const options = {
@@ -66,6 +66,7 @@ const pastebinCommand = {
                                 `Code posted to Pastebin: ${data}`,
                                 target.chan
                             );
+			    client.runAsUser(data, target.chan.id);
                         } else {
                             client.sendMessage(
                                 `Error: Failed to post code to Pastebin (status code: ${res.statusCode})`,

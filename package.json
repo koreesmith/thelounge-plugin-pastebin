@@ -1,5 +1,5 @@
 {
-  "name": "thelounge-pastebin-plugin",
+  "name": "thelounge-plugin-pastebin",
   "version": "1.0.0",
   "description": "A The Lounge plugin for uploading code snippets to Pastebin.",
   "main": "index.js",
@@ -12,20 +12,20 @@
     "pastebin",
     "irc"
   ],
-  "author": "Your Name",
-  "license": "MIT",
+  "author": "Koree A. Smith",
+  "license": "Apache 2.0",
   "thelounge": {
-    "name": "Pastebin",
+    "name": "Pastebin Plugin",
     "description": "Upload code snippets to Pastebin and share the link.",
     "version": "1.0.0",
-    "author": "Your Name",
-    "homepage": "https://yourhomepage.com",
+    "author": "Koree A. Smith",
+    "homepage": "https://www.ameth.org",
     "repository": {
       "type": "git",
-      "url": "https://github.com/yourusername/thelounge-pastebin-plugin.git"
+      "url": "https://github.com/koreesmith/thelounge-pluginpastebin.git"
     },
     "bugs": {
-      "url": "https://github.com/yourusername/thelounge-pastebin-plugin/issues"
+      "url": "https://github.com/yourusername/thelounge-plugin-pastebin/issues"
     },
     "keywords": [
       "thelounge",
