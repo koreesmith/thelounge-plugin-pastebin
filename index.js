@@ -2,7 +2,7 @@ const https = require('https');
 const querystring = require('querystring');  // Added this line
 
 // Replace 'YOUR_API_KEY' with your actual Pastebin API key
-const API_KEY = 'bHM7LgN5-K-Y0aO8F_Ok8l8vKDW_8-if';
+const API_KEY = 'YOUR_API_KEY';
 const API_URL = 'https://pastebin.com/api/api_post.php';
 
 const pastebinCommand = {
